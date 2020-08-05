@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecommerce product</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<!--font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--Nav bar,logo,search box and search icon-->
+	<div class="top-nav-bar">
+		<div class="search-box">
+			<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+			<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+			<img src="image\logo5.JPG" class="logo">
+			<input type="text" class="form-control">
+			<span class="input-group-text"><i class="fa fa-search"></i></span>
+		</div>
+		<!--Top menu-->
+		<div class="menu-bar">
+			<ul>
+				<li><a href="#"><i class="fa fa-shopping-basket"></i>cart</a></li>
+				<li><a href="#">Sign up</a></li>
+				<li><a href="#">log in</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<!-------Single Product------>
+	<section class="Single-product">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					
+				    <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <a href="Ecommerce.html" target="_blank"><img src="image\wat8.jpg" class="d-block" height="400px"></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a href="Ecommerce.html"><img src="image\wat9.jpg" class="d-block" height="400px"></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a href="Ecommerce.html"><img src="image\wat2.jpg" class="d-block" height="400px"></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a href="Ecommerce.html"><img src="image\wat3.jpg" class="d-block" height="400px"></a>
+					    </div>
+					  </div>
+					   <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+					   	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					   	<span class="sr-only">Previous</span>
+					   </a>
+					   <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+					   	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					   	<span class="sr-only">Next</span>
+					   </a>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<p class="new-arrival">New</p>
+					<h3>Men suit, Phone Accessory, Women Bags, Women watch</h3>
+					<p>Available in bulk</p>
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+
+					<p class="price">price USD $100</p>
+					<p><b>Availability:<b/> In Stock</p>
+					<p><b>Condition:</b> New</p>
+					<p><b>Brand:</b> XYZ Company</p>
+					<label>Quantity: </label>
+					<input type="text" value="1">
+					<button class="btn btn-primary">Add To Cart</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	    <!-------Product Description------>
+	    <section class="product-description">
+	    	<div class="container">
+	    		<h5>Product Description</h5>
+	    		<p>
+    			I am a graduate of computer engineering who advance my career in web development and software engineering. I believe that my education and technical experience will make me a very competitive candidate for this position
+				I possess key strengths for success in this position owing to my passion and interest in advancing in this field. I have successfully designed, developed, and supported live use applications.</p><p> I am self-motivated, passionate for learning new skills, goal oriented and I strive for excellence, and I can provide exceptional contributions to the development of more secured web applications since I have solid background in this area.
+				I also have experience for learning and exceling in new technologies as needed. My experience includes programing new applications and maintenance work, debugging of code, customer service and support, digital marketing, problem isolation and analysis, software process improvement and documentation.
+	    		</p>
+	    	</div>
+	    </section>
+
+	    <section class="on-sale">
+		<div class="container">
+			<div class="title-box">
+				<h2>Similar Ones</h2>
+			</div>
+			<hr class="hr-line">
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="image\wat4.jpg">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-primary" title="Quick shop">
+						<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-success" title="Add to while list">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-primary" title="Add to cart">
+						<i class="fa fa-shopping-cart"></i>	
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Fitness Watch</h3>
+						<h5>$40.00</h5>	
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="image\iphone_3.jpg" height="210px">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-primary" title="Quick shop">
+						<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-success" title="Add to while list">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-primary" title="Add to cart">
+						<i class="fa fa-shopping-cart"></i>	
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half"></i>
+						<h3>Iphone 3</h3>
+						<h5>$80.00</h5>	
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="image\wat8.jpg">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-primary" title="Quick shop">
+						<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-success" title="Add to while list">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-primary" title="Add to cart">
+						<i class="fa fa-shopping-cart"></i>	
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<h3>Men Suit</h3>
+						<h5>$60.00</h5>	
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="image\wat7.jpg">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-primary" title="Quick shop">
+						<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-success" title="Add to while list">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-primary" title="Add to cart">
+						<i class="fa fa-shopping-cart"></i>	
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Women Gown</h3>
+						<h5>$65.00</h5>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+		<!-------Footer Section------>
+	<section class="footer">
+		<div class="container text-feature">
+			<div class="row">
+				<div class="col-md-3">
+					<h1>Useful Links</h1>
+					<p>Private Policy</p>
+					<p>Terms of Use</p>
+					<p>Return Policy</p>
+					<p>Discount Coupons</p>
+				</div>
+				<div class="col-md-3">
+					<h1>Company</h1>
+					<p>About Us</p>
+					<p>Contact Us</p>
+					<p>Career</p>
+					<p>Affiliate</p>
+				</div>
+				<div class="col-md-3">
+					<h1>Follow us on</h1>
+					<p><i class="fa fa-facebook-official"></i>Facebook</p>
+					<p><i class="fa fa-twitter"></i>Twiter</p>
+					<p><i class="fa fa-linkedin"></i>Linkedin</p>
+					<p><i class="fa fa-youtube-play"></i>Youtube</p>
+				</div>
+				<div class="col-md-3">
+					<h1>Visit Our website</h1>
+					<p>JovicsTech.com</p>
+					<img src="image\logo8.JPG">
+					<p>Tech News</p>
+				</div>
+			</div>
+			<div>
+			<hr class="hr-line">
+			<p class="copyrite">Made by JovicsTech &copy; 2020</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
